@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul,li,ol{
+    list-style: none;
+}
+.title-cell{
+    width:90%;
+    height:50px;
+    border:1px solid #aaa;
+    display:flex;
+    justify-content: space-between;
+    background: #ffc;
+    li{
+        width:33.3%;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+    }
+}
+.content-cell{
+    background: #ccf;
+    width:90%;
+    height:300px;
+    border: 1px solid #aaa;
+    text-align:center;
+    line-height: 300px;
+}
+.active{
+    background: skyblue;
+}
+.haveno{
+    display:block;
+}
+.no{
+    display: none;
+}
